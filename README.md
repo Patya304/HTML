@@ -6,5 +6,5 @@
 3. CSS Alapok
 4. CSS Selectors
 
-> Ha elakadtál írj rám discordon
-![](https://dcbadge.vercel.app/api/shield/831508744541831200)
+**Ha elakadtál írj rám discordon**
+![](https://dcbadge.vercel.app/api/shield/831508744541831200?style=flat)
