@@ -5,6 +5,7 @@
 2. HTML02
 3. CSS Alapok
 4. CSS Selectors
+5. CSS Button *(hamarosan)*
 
 **Ha elakadtál írj rám discordon**
 ![](https://dcbadge.vercel.app/api/shield/831508744541831200?style=flat)
