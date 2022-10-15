@@ -1,0 +1,26 @@
+body {
+    background-color: sandybrown;
+}
+
+
+/* Az összes h1 elem középre igazítva lesz, piros szövegszínnel: */
+h1 { /* Kiemeli azt az HTML elemet amire a szabály, meghatározás vonatkozni fog. */
+    color: red; /* "color:" - tulajdonság, az az a színe ennél az esetnél. "red;" - a hozzá tartozó érték. "{color:red;}" - Meghatározás */
+    text-align: center;
+} 
+
+/* Ha a kódban később deklarálunk valamit akkor az előzőekben meghatározott szabály az felül íródik és ezért a később kód jut érvénybe. 
+h1 {
+    color: seagreen;
+}*/
+
+p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+p { /* Különböző értékeket, tulajodnságokat 1sorban is megtudunk adni. Ez egy sokkal rövidebb és egyszerűbb megoldás. */
+    border: solid 2px green;
+    margin: 10px;
+}
