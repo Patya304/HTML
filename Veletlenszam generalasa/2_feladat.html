@@ -1,0 +1,22 @@
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <script>
+        function RandomIdo() {
+            const ora = Math.floor(Math.random() * 24);
+            const perc = Math.floor(Math.random() * 60);
+            return `${String(ora).padStart(2, '0')}:${String(perc).padStart(2, '0')}`; /* padStart() - kezdettől fogva egy karakterláncot ad meg */
+        }
+        
+        function Ido() {
+            document.write(RandomIdo());
+        }
+
+        Ido();
+        </script>
+    </body>
+</html>

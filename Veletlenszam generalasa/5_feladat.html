@@ -1,0 +1,14 @@
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <script>
+        const lottoSzamok = Array.from({length: 5}, () => Math.floor(Math.random() * 90) + 1); /* Array.from() - tömböt ad vissza bármely olyan objektumból, amely rendelkezik hossz tulajdonsággal */
+
+        document.write(lottoSzamok.join(', '))
+        </script>
+    </body>
+</html>

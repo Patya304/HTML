@@ -1,0 +1,15 @@
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <script>
+        const randomSzin = '#' + Math.floor(Math.random()*16777215).toString(16);
+        
+        document.write('<div style="width: 100px; height: 100px; background-color: ' + randomSzin + ';"></div>');
+        document.write(randomSzin);
+        </script>
+    </body>
+</html>
